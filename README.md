@@ -16,7 +16,7 @@ Here is the create page, follow the format that is specified here to add in an e
 
 ![image](https://github.com/user-attachments/assets/d4c1ca0f-2b48-42c7-936d-04d8d8163124)
 
-Here is the create page, same idea:
+Here is the edit page, same idea:
 
 ![image](https://github.com/user-attachments/assets/3d805bec-f5b2-4a92-8495-a582827556db)
 
