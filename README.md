@@ -2,6 +2,7 @@
 A simple NodeJS Dynamic Website that tracks exercises using the MERN Stack
 
 **Description**
+
 This is a NodeJS full stack application that tracks a log of your exercises. It will update in real time as your add/edit/delete exercises.
 This is the UI:
 ![image](https://github.com/user-attachments/assets/0340aefa-5f7f-46e2-9cf2-70bb5104af78)
