@@ -26,10 +26,11 @@ Here you can save your edits by clicking "edits". It will also sent an error mes
 **Background**
 - This runs on NodeJS. It uses express to handle API calls, MongoDB for the database, and react for the user interface (UI) for a Single Page Application.
 - This uses the Model-View-Controller setup.
-- The .ENV file is removed for now, since having those credentials could expose the database to attacks.
+- The .ENV file is removed for now, since having those credentials could expose the database to attacks. NOTE: This will make the website not run update the backend. 
 - A HTTP request tester file is included here as a guide to forming the website.
 - This is not currently run on an external server; to run form two terminals (one for backend, one for front end).
     - Do "npm init" on both terminals to install the packages.
     - Do "npm run dev" for the react portion and "npm start" for the RESTful portion.
-
+ 
+NOTE: In order to use the program, you will need to do the two steps above, and also set up a database in the .ENV file on MongoDB. 
 
