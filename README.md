@@ -11,6 +11,7 @@ These two buttons either 1) take you to the edit page or 2) delete the exercise 
 ![image](https://github.com/user-attachments/assets/72104e04-2c0d-4ede-90a0-cb978f8fddb6)
 
 **Create & Edit Pages**
+
 Here is the create page, follow the format that is specified here to add in an exercise:
 
 ![image](https://github.com/user-attachments/assets/d4c1ca0f-2b48-42c7-936d-04d8d8163124)
