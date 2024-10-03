@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(195, 215, 210, 0.963);
+}
+
+.app {
+  background-color: #425987;
+  color: rgba(195, 215, 210, 0.963);
+}
+
+
+.collection-container {
+  border: 6px solid rgb(95, 105, 100);
+  padding: 32px;
+}
+
+.collection-item {
+  border: 2px solid rgb(246, 243, 92);
+  border-radius: 8px;
+  width: 100px;
+  margin-top: 16px;
+}
+
+a {
+  color: rgba(195, 215, 210, 0.963);
+}
+
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: rgb(173, 199, 229);
+  color: rgba(99, 113, 102, 0.292);
+  margin: 5px 5px 5px 5px;
+  padding: 5px;
+}
+
+tr th {
+  font-family: "Lucida Console", "Courier New", monospace;
+  border: 6px solid rgb(198, 220, 246);
+  color: rgba(195, 215, 210, 0.963);
+  padding: 5px;
+}
+
+tr td {
+  font-family: "Lucida Console", "Courier New", monospace;
+  border: 6px solid rgb(198, 220, 246);
+  color: rgba(195, 215, 210, 0.963);
+  padding: 5px;
+}
+
+input, button {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
