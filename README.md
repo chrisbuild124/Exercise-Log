@@ -15,10 +15,12 @@ These two buttons either 1) take you to the edit page or 2) delete the exercise 
 Here is the create page, follow the format that is specified here to add in an exercise:
 
 ![image](https://github.com/user-attachments/assets/d4c1ca0f-2b48-42c7-936d-04d8d8163124)
+It will sent an error message if not successful. 
 
 Here is the edit page, same idea:
 
 ![image](https://github.com/user-attachments/assets/3d805bec-f5b2-4a92-8495-a582827556db)
+Here you can save your edits by clicking "edits". It will also sent an error message if not successful. 
 
 **Background**
 - This runs on NodeJS. It uses express to handle API calls, MongoDB for the database, and react for the user interface (UI) for a Single Page Application.
