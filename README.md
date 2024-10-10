@@ -1,5 +1,5 @@
 # Exercise-Log
-A simple NodeJS Dynamic Website that tracks exercises using the MERN Stack
+A NodeJS Dynamic Website that tracks exercises using the MERN Stack
 
 **Description**
 
