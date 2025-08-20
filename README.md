@@ -1,36 +1,49 @@
-# Exercise-Log
-A NodeJS Dynamic Website that tracks exercises using the MERN Stack
+# Exercise Log
 
-**Description**
+A dynamic full-stack MERN application for tracking exercises in real time.
 
-This is a NodeJS full stack application that tracks a log of your exercises. It will update in real time as your add/edit/delete exercises.
-This is the UI:
-![image](https://github.com/user-attachments/assets/0340aefa-5f7f-46e2-9cf2-70bb5104af78)
+## Description
 
-These two buttons either 1) take you to the edit page or 2) delete the exercise from the chart.
+**Exercise Log** is a Node.js-based full-stack web application that allows users to log, edit, and delete exercises. Built with the MERN stack (MongoDB, Express, React, Node.js), it updates in real time and provides a clean, intuitive interface for managing your workout history.
 
-![image](https://github.com/user-attachments/assets/72104e04-2c0d-4ede-90a0-cb978f8fddb6)
+### User Interface
 
-**Create & Edit Pages**
+Main dashboard view:  
+![Dashboard UI](https://github.com/user-attachments/assets/0340aefa-5f7f-46e2-9cf2-70bb5104af78)
 
-Here is the create page, follow the format that is specified here to add in an exercise:
+Each exercise entry includes two buttons:
+- ✏️ Edit — navigates to the edit page
+- 🗑️ Delete — removes the exercise from the list  
+![Edit/Delete Buttons](https://github.com/user-attachments/assets/72104e04-2c0d-4ede-90a0-cb978f8fddb6)
 
-![image](https://github.com/user-attachments/assets/d4c1ca0f-2b48-42c7-936d-04d8d8163124)
-It will sent an error message if not successful. 
+## Create & Edit Pages
 
-Here is the edit page, same idea:
+### Create Page
 
-![image](https://github.com/user-attachments/assets/3d805bec-f5b2-4a92-8495-a582827556db)
-Here you can save your edits by clicking "edits". It will also sent an error message if not successful. 
+Follow the specified format to add a new exercise. If the input is invalid, an error message will be displayed.  
+![Create Page](https://github.com/user-attachments/assets/d4c1ca0f-2b48-42c7-936d-04d8d8163124)
 
-**Background**
-- This runs on NodeJS. It uses express to handle API calls, MongoDB for the database, and react for the user interface (UI) for a Single Page Application.
-- This uses the Model-View-Controller setup.
-- The .ENV file is removed for now, since having those credentials could expose the database to attacks. NOTE: This will make the website not run update the backend. 
-- A HTTP request tester file is included here as a guide to forming the website.
-- This is not currently run on an external server; to run form two terminals (one for backend, one for front end).
-    - Do "npm init" on both terminals to install the packages.
-    - Do "npm run dev" for the react portion and "npm start" for the RESTful portion.
- 
-NOTE: In order to use the program, you will need to do the two steps above, and also set up a database in the .ENV file on MongoDB. 
+### Edit Page
 
+Update existing exercises and save your changes by clicking "Edits". Errors will be shown if the update fails.  
+![Edit Page](https://github.com/user-attachments/assets/3d805bec-f5b2-4a92-8495-a582827556db)
+
+## Tech Stack & Architecture
+
+- Node.js with Express for backend API handling  
+- MongoDB for database storage  
+- React for the frontend SPA (Single Page Application)  
+- MVC Architecture for clean separation of concerns
+
+## Environment & Setup
+
+> ⚠️ Note: The `.env` file is excluded for security reasons. Without it, the backend will not connect to the database.
+
+To run locally:
+
+1. Open two terminals — one for the frontend, one for the backend  
+2. Run the following commands in each:
+
+```bash
+npm init
+npm start
